@@ -70,7 +70,7 @@
                             <a href="{{ route('catatan.show', $item) }}" class="btn btn-sm btn-outline-primary" title="Lihat">
                                 <i class="fa-solid fa-eye me-1" aria-hidden="true"></i>Lihat
                             </a>
-                            <a href="{{ route('catatan.edit', $item) }}" class="btn btn-sm btn-outline-warning" title="Edit">
+                            <a href="{{ route('catatan.edit', $item) }}" class="btn btn-sm btn-outline-primary" title="Edit">
                                 <i class="fa-solid fa-pen-to-square me-1" aria-hidden="true"></i>Edit
                             </a>
                             <form action="{{ route('catatan.archive', $item) }}" method="POST">

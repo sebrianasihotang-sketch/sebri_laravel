@@ -9,11 +9,11 @@
         <h1 class="display-6 fw-bold mb-3">Hubungi kami</h1>
         <p class="text-secondary mb-4">Ada pertanyaan atau masukan? Silakan hubungi melalui:</p>
         <div class="d-grid gap-3">
-            <a href="mailto:sebriana@gmail.com" class="btn btn-light border text-start p-3">
+            <a href="mailto:sebriana@gmail.com" class="btn btn-outline-secondary text-start p-3">
                 <span class="d-block small text-secondary">Email</span>
                 <span class="fw-semibold">sebriana@gmail.com</span>
             </a>
-            <a href="tel:+6282177772102" class="btn btn-light border text-start p-3">
+            <a href="tel:+6282177772102" class="btn btn-outline-secondary text-start p-3">
                 <span class="d-block small text-secondary">Telepon</span>
                 <span class="fw-semibold">0821-7777-2102</span>
             </a>
