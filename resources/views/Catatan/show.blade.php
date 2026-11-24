@@ -16,7 +16,7 @@
             <div class="card-footer text-end">
                 <a href="/catatan" class="btn btn-secondary">&larr; Kembali</a>
                 <a href="/catatan/{{ $catatan->id }}/edit" class="btn btn-warning">Edit</a>
-                <form action="#" method="POST" class="d-inline">
+                <form action="/catatan/{{ $catatan->id }}" method="POST" class="d-inline">
                     @csrf
                     @method('DELETE')
                     <button type="submit" class="btn btn-danger" onclick="return confirm('Hapus catatan ini?')">Hapus</button>

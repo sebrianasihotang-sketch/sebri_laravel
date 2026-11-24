@@ -19,3 +19,4 @@ Route::post('/catatan', [CatatanController::class, 'store']);
 Route::get('/catatan/{id}', [CatatanController::class, 'show']);
 Route::get('/catatan/{id}/edit', [CatatanController::class, 'edit']);
 Route::put('/catatan/{id}', [CatatanController::class, 'update']);
+Route::delete('/catatan/{id}', [CatatanController::class, 'destroy']);

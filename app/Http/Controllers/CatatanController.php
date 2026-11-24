@@ -47,4 +47,12 @@ public function update(Request $request, $id)
 
     return redirect("/catatan/{$id}")->with('sukses', 'Catatan berhasil diperbarui!');
 }
+
+public function destroy($id)
+{
+    $catatan = Catatan::findOrFail($id);
+    $catatan->delete();
+
+    return redirect('/catatan')->with('sukses', 'Catatan berhasil dihapus!');
+}
 }
